@@ -1267,7 +1267,7 @@
 		0A24F7EE233E9129004D2F3A /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = "<group>"; };
 		0A24F837233EB5B4004D2F3A /* Firefox.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Firefox.xcconfig; sourceTree = "<group>"; };
 		0A24F838233EB5B4004D2F3A /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
-		0A24F839233EB5B4004D2F3A /* FirefoxBeta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FirefoxBeta.xcconfig; sourceTree = "<group>"; };
+		0A24F839233EB5B4004D2F3A /* ExternalBeta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ExternalBeta.xcconfig; sourceTree = "<group>"; };
 		0A24F83A233EB5B4004D2F3A /* Local.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Local.xcconfig; sourceTree = "<group>"; };
 		0A24F83C233EB5B4004D2F3A /* BuildId.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BuildId.xcconfig; sourceTree = "<group>"; };
 		0A24F83D233EB5B4004D2F3A /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Version.xcconfig; sourceTree = "<group>"; };
@@ -2680,7 +2680,7 @@
 			children = (
 				0A24F837233EB5B4004D2F3A /* Firefox.xcconfig */,
 				0A24F838233EB5B4004D2F3A /* Development.xcconfig */,
-				0A24F839233EB5B4004D2F3A /* FirefoxBeta.xcconfig */,
+				0A24F839233EB5B4004D2F3A /* ExternalBeta.xcconfig */,
 				0A24F83A233EB5B4004D2F3A /* Local.xcconfig */,
 				0A24F83B233EB5B4004D2F3A /* Local */,
 				0A24F840233EB5B4004D2F3A /* Local.templates */,
@@ -7194,7 +7194,7 @@
 			};
 			name = Firefox;
 		};
-		271DEC33234CC760009DAC37 /* FirefoxBeta */ = {
+		271DEC33234CC760009DAC37 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -7273,7 +7273,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
 		271DEC34234CC760009DAC37 /* Development */ = {
 			isa = XCBuildConfiguration;
@@ -7494,7 +7494,7 @@
 			};
 			name = Firefox;
 		};
-		271DEC37234CC760009DAC37 /* FirefoxBeta */ = {
+		271DEC37234CC760009DAC37 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -7563,7 +7563,7 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
 		27F443A02135E11200296C58 /* Development */ = {
 			isa = XCBuildConfiguration;
@@ -7768,7 +7768,7 @@
 			};
 			name = Firefox;
 		};
-		27F443A32135E11200296C58 /* FirefoxBeta */ = {
+		27F443A32135E11200296C58 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -7832,7 +7832,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
 		288A2DA01AB8B3260023ABC3 /* Development */ = {
 			isa = XCBuildConfiguration;
@@ -8131,7 +8131,7 @@
 			};
 			name = Firefox;
 		};
-		5D1DC52D20AC9AFB00905E5A /* FirefoxBeta */ = {
+		5D1DC52D20AC9AFB00905E5A /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -8202,7 +8202,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
 		5D1DC52E20AC9AFB00905E5A /* Development */ = {
 			isa = XCBuildConfiguration;
@@ -8405,7 +8405,7 @@
 			};
 			name = Firefox;
 		};
-		5D1DC53120AC9AFB00905E5A /* FirefoxBeta */ = {
+		5D1DC53120AC9AFB00905E5A /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -8468,7 +8468,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
 		5DE7689C20B3456E00FF5533 /* Development */ = {
 			isa = XCBuildConfiguration;
@@ -8698,7 +8698,7 @@
 			};
 			name = Firefox;
 		};
-		5DE7689F20B3456E00FF5533 /* FirefoxBeta */ = {
+		5DE7689F20B3456E00FF5533 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -8770,7 +8770,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
 		5DE768A120B3456E00FF5533 /* Development */ = {
 			isa = XCBuildConfiguration;
@@ -8976,7 +8976,7 @@
 			};
 			name = Firefox;
 		};
-		5DE768A420B3456E00FF5533 /* FirefoxBeta */ = {
+		5DE768A420B3456E00FF5533 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -9040,7 +9040,7 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
 		E448FC9D1AEE7A6000869B6C /* Firefox */ = {
 			isa = XCBuildConfiguration;
@@ -9559,9 +9559,9 @@
 			};
 			name = Firefox;
 		};
-		E6FCC4291C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4291C40562400DF6113 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A24F839233EB5B4004D2F3A /* FirefoxBeta.xcconfig */;
+			baseConfigurationReference = 0A24F839233EB5B4004D2F3A /* ExternalBeta.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -9641,9 +9641,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
-		E6FCC42A1C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC42A1C40562400DF6113 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -9683,9 +9683,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Client/Application/Client-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
-		E6FCC42B1C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC42B1C40562400DF6113 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -9705,9 +9705,9 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
-		E6FCC4311C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4311C40562400DF6113 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -9732,9 +9732,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
-		E6FCC4321C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4321C40562400DF6113 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -9761,9 +9761,9 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
-		E6FCC4331C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4331C40562400DF6113 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -9780,9 +9780,9 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
-		E6FCC43A1C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC43A1C40562400DF6113 /* ExternalBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -9799,7 +9799,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
-			name = FirefoxBeta;
+			name = ExternalBeta;
 		};
 		F84B21DB1A090F8100AAB793 /* Development */ = {
 			isa = XCBuildConfiguration;
@@ -9976,7 +9976,7 @@
 				271DEC30234CC760009DAC37 /* Development */,
 				271DEC31234CC760009DAC37 /* InternalBeta */,
 				271DEC32234CC760009DAC37 /* Firefox */,
-				271DEC33234CC760009DAC37 /* FirefoxBeta */,
+				271DEC33234CC760009DAC37 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -9987,7 +9987,7 @@
 				271DEC34234CC760009DAC37 /* Development */,
 				271DEC35234CC760009DAC37 /* InternalBeta */,
 				271DEC36234CC760009DAC37 /* Firefox */,
-				271DEC37234CC760009DAC37 /* FirefoxBeta */,
+				271DEC37234CC760009DAC37 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -9998,7 +9998,7 @@
 				27F443A02135E11200296C58 /* Development */,
 				27F443A12135E11200296C58 /* InternalBeta */,
 				27F443A22135E11200296C58 /* Firefox */,
-				27F443A32135E11200296C58 /* FirefoxBeta */,
+				27F443A32135E11200296C58 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10009,7 +10009,7 @@
 				288A2DA01AB8B3260023ABC3 /* Development */,
 				E6DCC20B1DCBB6F100CEC4B7 /* InternalBeta */,
 				E448FCA31AEE7A6000869B6C /* Firefox */,
-				E6FCC4311C40562400DF6113 /* FirefoxBeta */,
+				E6FCC4311C40562400DF6113 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10020,7 +10020,7 @@
 				2FCAE2341ABB51F900877008 /* Development */,
 				E6DCC20C1DCBB6F100CEC4B7 /* InternalBeta */,
 				E448FCA41AEE7A6000869B6C /* Firefox */,
-				E6FCC4321C40562400DF6113 /* FirefoxBeta */,
+				E6FCC4321C40562400DF6113 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10031,7 +10031,7 @@
 				2FCAE2381ABB51F900877008 /* Development */,
 				E6DCC2131DCBB6F100CEC4B7 /* InternalBeta */,
 				E448FCA51AEE7A6000869B6C /* Firefox */,
-				E6FCC4331C40562400DF6113 /* FirefoxBeta */,
+				E6FCC4331C40562400DF6113 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10042,7 +10042,7 @@
 				5D1DC52A20AC9AFB00905E5A /* Development */,
 				5D1DC52B20AC9AFB00905E5A /* InternalBeta */,
 				5D1DC52C20AC9AFB00905E5A /* Firefox */,
-				5D1DC52D20AC9AFB00905E5A /* FirefoxBeta */,
+				5D1DC52D20AC9AFB00905E5A /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10053,7 +10053,7 @@
 				5D1DC52E20AC9AFB00905E5A /* Development */,
 				5D1DC52F20AC9AFB00905E5A /* InternalBeta */,
 				5D1DC53020AC9AFB00905E5A /* Firefox */,
-				5D1DC53120AC9AFB00905E5A /* FirefoxBeta */,
+				5D1DC53120AC9AFB00905E5A /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10064,7 +10064,7 @@
 				5DE7689C20B3456E00FF5533 /* Development */,
 				5DE7689D20B3456E00FF5533 /* InternalBeta */,
 				5DE7689E20B3456E00FF5533 /* Firefox */,
-				5DE7689F20B3456E00FF5533 /* FirefoxBeta */,
+				5DE7689F20B3456E00FF5533 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10075,7 +10075,7 @@
 				5DE768A120B3456E00FF5533 /* Development */,
 				5DE768A220B3456E00FF5533 /* InternalBeta */,
 				5DE768A320B3456E00FF5533 /* Firefox */,
-				5DE768A420B3456E00FF5533 /* FirefoxBeta */,
+				5DE768A420B3456E00FF5533 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10086,7 +10086,7 @@
 				E6F965151B2F1CF20034B023 /* Development */,
 				E6DCC2171DCBB6F100CEC4B7 /* InternalBeta */,
 				E6F965171B2F1CF20034B023 /* Firefox */,
-				E6FCC43A1C40562400DF6113 /* FirefoxBeta */,
+				E6FCC43A1C40562400DF6113 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10097,7 +10097,7 @@
 				F84B21DB1A090F8100AAB793 /* Development */,
 				E6DCC2051DCBB6F100CEC4B7 /* InternalBeta */,
 				E448FC9D1AEE7A6000869B6C /* Firefox */,
-				E6FCC4291C40562400DF6113 /* FirefoxBeta */,
+				E6FCC4291C40562400DF6113 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10108,7 +10108,7 @@
 				F84B21DE1A090F8100AAB793 /* Development */,
 				E6DCC2061DCBB6F100CEC4B7 /* InternalBeta */,
 				E448FC9E1AEE7A6000869B6C /* Firefox */,
-				E6FCC42A1C40562400DF6113 /* FirefoxBeta */,
+				E6FCC42A1C40562400DF6113 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
@@ -10119,7 +10119,7 @@
 				F84B21E11A090F8100AAB793 /* Development */,
 				E6DCC2101DCBB6F100CEC4B7 /* InternalBeta */,
 				E448FC9F1AEE7A6000869B6C /* Firefox */,
-				E6FCC42B1C40562400DF6113 /* FirefoxBeta */,
+				E6FCC42B1C40562400DF6113 /* ExternalBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
