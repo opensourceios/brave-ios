@@ -3,6 +3,7 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import Foundation
+import BraveUI
 
 /// A view with a label in it with a rounded colored background
 class LabelAccessoryView: UIView {

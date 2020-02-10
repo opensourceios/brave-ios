@@ -4,6 +4,7 @@
 
 import UIKit
 import pop
+import BraveUI
 
 public class AdView: UIView {
   let adContentButton = AdContentButton()

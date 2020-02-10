@@ -7,6 +7,7 @@ import SnapKit
 import BraveRewards
 import Network
 import BraveShared
+import BraveUI
 
 protocol WalletContentView: AnyObject {
   var innerScrollView: UIScrollView? { get }

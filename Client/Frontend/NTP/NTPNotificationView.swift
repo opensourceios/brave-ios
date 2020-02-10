@@ -5,7 +5,7 @@
 import UIKit
 import Shared
 import BraveShared
-import BraveRewardsUI
+import BraveUI
 
 struct NTPNotificationViewConfig {
     var headerText: String?

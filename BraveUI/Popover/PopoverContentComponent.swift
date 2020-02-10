@@ -6,7 +6,7 @@ import Foundation
 import UIKit
 
 /// Defines behavior of a component which will be used with a `PopoverController`
-protocol PopoverContentComponent {
+public protocol PopoverContentComponent {
     /// Whether or not the controller's frame begins at 0 (allowing it to bleed into the arrow) or start under the arrow
     ///
     /// Use safeAreaLayoutGuide to constrain content within the popover content view
@@ -18,7 +18,7 @@ protocol PopoverContentComponent {
     func popoverShouldDismiss(_ popoverController: PopoverController) -> Bool
 }
 
-extension PopoverContentComponent {
+public extension PopoverContentComponent {
     var extendEdgeIntoArrow: Bool {
         return true
     }
@@ -35,7 +35,7 @@ extension PopoverContentComponent {
     }
 }
 
-extension PopoverContentComponent where Self: UINavigationController {
+public extension PopoverContentComponent where Self: UINavigationController {
     var extendEdgeIntoArrow: Bool {
         return false
     }

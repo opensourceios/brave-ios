@@ -3,6 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import UIKit
+import BraveUI
 
 /// Displayed when the user does not have enough tokens to complete a tip
 class InsufficientFundsButton: UIControl {

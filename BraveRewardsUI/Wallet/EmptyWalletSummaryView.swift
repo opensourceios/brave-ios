@@ -3,6 +3,7 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import UIKit
+import BraveUI
 
 /// Simply a label with a wide amount of padding around it
 class EmptyWalletSummaryView: UIView {

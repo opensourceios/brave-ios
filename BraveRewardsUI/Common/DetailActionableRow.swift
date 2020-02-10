@@ -4,6 +4,7 @@
 
 import UIKit
 import SnapKit
+import BraveUI
 
 class DetailActionableRow: Button {
   

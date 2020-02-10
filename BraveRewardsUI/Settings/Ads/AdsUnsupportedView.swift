@@ -3,6 +3,7 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import UIKit
+import BraveUI
 
 /// A small disclosure that appears in the SettingsAdsSectionView if ads are not supported
 /// on this device for some given reason

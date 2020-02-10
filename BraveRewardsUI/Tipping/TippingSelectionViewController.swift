@@ -5,6 +5,7 @@
 import Foundation
 import UIKit
 import BraveRewards
+import BraveUI
 
 /// A controller for displaying BATValue options with their equivalent dollar value.
 /// When the user selects an option, the selected index is returned in the completion block.

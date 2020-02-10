@@ -3,7 +3,9 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import UIKit
+import BraveUI
 
+/// A circular button with an X icon 
 class DismissButton: Button {
   
   private struct UX {

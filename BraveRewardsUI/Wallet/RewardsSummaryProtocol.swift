@@ -5,6 +5,7 @@
 import Foundation
 import BraveRewards
 import BraveShared
+import BraveUI
 
 enum RewardsSummaryLink: String {
   case learnMore = "learn-more"

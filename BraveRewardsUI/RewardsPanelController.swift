@@ -4,6 +4,7 @@
 
 import UIKit
 import BraveRewards
+import BraveUI
 
 public class RewardsPanelController: PopoverNavigationController {
   

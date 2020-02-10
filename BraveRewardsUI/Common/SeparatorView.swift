@@ -3,6 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import UIKit
+import BraveUI
 
 /// A simple view that has constant height and defaults to a gray color
 class SeparatorView: UIView {
